@@ -11,7 +11,7 @@
         "Good day"
       ],
       "responses": [
-        "Hey :-)",
+        "Hey and welcome to dotCoffee :)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
@@ -23,7 +23,7 @@
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
-        "Bye! Come back again soon."
+        "Bye! Come back to dotCoffee again soon."
       ]
     },
     {
@@ -39,8 +39,8 @@
         "What do you sell?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell the best coffee for Software Developers",
+        "We have coffee specially designed for Software Developers"
       ]
     },
     {
