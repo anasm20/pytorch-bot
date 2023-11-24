@@ -3,6 +3,7 @@
     {
       "tag": "greeting",
       "patterns": [
+        "H",
         "Hi",
         "Hey",
         "How are you",

@@ -2,6 +2,8 @@ import numpy as np
 import random
 import json
 
+# nltk.download('punkt')
+
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
@@ -9,7 +11,7 @@ from torch.utils.data import Dataset, DataLoader
 from intro import bag_of_words, tokenize, stem
 from data_model import NeuralNet
 
-with open('intents.json', 'r') as f:
+with open('intents-text.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
@@ -19,6 +21,7 @@ xy = []
 # loop through each sentence in our intents patterns
 for intent in intents['intents']:
     tag = intent['tag']
+    
     # add to tag list
     tags.append(tag)
     for pattern in intent['patterns']:
@@ -33,6 +36,7 @@ for intent in intents['intents']:
 # stem and lower each word
 ignore_words = ['?', '.', '!']
 all_words = [stem(w) for w in all_words if w not in ignore_words]
+
 # remove duplicates and sort
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
