@@ -9,13 +9,15 @@
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Good day",
+        "What is your name"
       ],
       "responses": [
         "Hey and welcome to dotCoffe :)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "My name is Sam, and I'm dotCoffe Chat-bot"
       ]
     },
     {
@@ -37,7 +39,8 @@
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "Coffee"
       ],
       "responses": [
         "We sell the best coffee for Software Developers",
@@ -50,7 +53,8 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "How to pay"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
@@ -62,7 +66,8 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "delivery"
       ],
       "responses": [
         "Delivery takes 2-4 days",
